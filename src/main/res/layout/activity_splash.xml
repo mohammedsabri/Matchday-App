@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B22222" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="480dp"
+        android:layout_height="440dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="24sp"
+        android:textColor="#FFFAF0"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="@string/welcome_to_my_match_day_app" />
+
+</RelativeLayout>
+
+
+

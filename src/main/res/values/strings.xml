@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MatchDayApp</string>
+    <string name="map_key" translatable="false"></string>
+    <string name="www_liverpoolfc_com">www.liverpoolfc.com</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="welcome">Welcome</string>
+    <string name="map">Map</string>
+    <string name="images">Images</string>
+    <string name="button_addImage">addimage</string>
+    <string name="matchdayapp_image">image</string>
+    <string name="matchday_image">matchday</string>
+    <string name="button_map">map</string>
+    <string name="welcome_to_my_match_day_app">WELCOME TO MY MATCH DAY APP</string>
+    <string name="todo">TODO</string>
+    <string name="button_images">images</string>
+    <string name="maps_key">mapkey</string>
+    <string name="MatchTime">MatchTime</string>
+
+
+</resources>
