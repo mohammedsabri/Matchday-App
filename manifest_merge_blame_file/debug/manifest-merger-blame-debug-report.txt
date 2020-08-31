@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.matchdayapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:11:5-79
+16-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:12:5-81
+17-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:13:5-67
+18-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:13:22-64
+19
+20    <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+26
+27    <application
+27-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:15:5-54:19
+28        android:allowBackup="true"
+28-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/869d26b43569447e52a83bdd752eeacb/core-1.3.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:17:9-43
+32        android:label="@string/app_name"
+32-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:18:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:19:9-54
+34        android:supportsRtl="true"
+34-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:20:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:21:9-40
+37
+38        <!--
+39             The API key for Google Maps-based APIs is defined as a string resource.
+40             (See the file "res/values/google_maps_api.xml").
+41             Note that the API key is linked to the encryption key used to sign the APK.
+42             You need a different API key for each encryption key, including the release key that is used to
+43             sign the APK for publishing.
+44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+45        -->
+46        <meta-data
+46-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:31:9-33:55
+47            android:name="com.google.android.geo.API_KEY"
+47-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:32:13-58
+48            android:value="@string/google_maps_key" />
+48-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:33:13-52
+49
+50        <activity
+50-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:35:9-39:20
+51            android:name="com.example.matchdayapp.activities.activities.MapsActivity"
+51-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:36:13-63
+52            android:label="@string/title_activity_maps" >
+52-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:37:13-56
+53        </activity>
+54        <activity
+54-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:40:9-49:20
+55            android:name="com.example.matchdayapp.activities.activities.SplashActivity"
+55-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:41:13-65
+56            android:noHistory="true"
+56-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:42:13-37
+57            android:theme="@style/AppTheme" >
+57-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:43:13-44
+58            <intent-filter>
+58-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:44:13-48:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:45:17-69
+59-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:45:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:47:17-77
+61-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:47:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.example.matchdayapp.activities.activities.MainActivity" />
+64-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:51:9-72
+64-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:51:19-69
+65        <activity android:name="com.example.matchdayapp.activities.activities.ImageActivity" />
+65-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:52:9-73
+65-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:52:19-70
+66        <activity android:name="com.example.matchdayapp.activities.activities.MatchdatetimeActivity" />
+66-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:53:9-81
+66-->/Users/mohammedsabri/Downloads/MatchDayApp/app/src/main/AndroidManifest.xml:53:19-78
+67        <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/58f83171d0960ae257909bd174a6d6b6/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+71
+72        <service
+72-->[com.google.firebase:firebase-database:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/582cb099e1917e69f0cee13a4294c72b/jetified-firebase-database-19.3.0/AndroidManifest.xml:29:9-35:19
+73            android:name="com.google.firebase.components.ComponentDiscoveryService"
+73-->[com.google.firebase:firebase-database:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/582cb099e1917e69f0cee13a4294c72b/jetified-firebase-database-19.3.0/AndroidManifest.xml:30:13-84
+74            android:directBootAware="true"
+74-->[com.google.firebase:firebase-common:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9ff898b7d65a218fa30ac2bfe39588ca/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+75            android:exported="false" >
+75-->[com.google.firebase:firebase-database:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/582cb099e1917e69f0cee13a4294c72b/jetified-firebase-database-19.3.0/AndroidManifest.xml:31:13-37
+76            <meta-data
+76-->[com.google.firebase:firebase-database:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/582cb099e1917e69f0cee13a4294c72b/jetified-firebase-database-19.3.0/AndroidManifest.xml:32:13-34:85
+77                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+77-->[com.google.firebase:firebase-database:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/582cb099e1917e69f0cee13a4294c72b/jetified-firebase-database-19.3.0/AndroidManifest.xml:33:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-database:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/582cb099e1917e69f0cee13a4294c72b/jetified-firebase-database-19.3.0/AndroidManifest.xml:34:17-82
+79        </service>
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/d12bbb7dd949d3fffed987aa0a3c815a/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/d12bbb7dd949d3fffed987aa0a3c815a/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/d12bbb7dd949d3fffed987aa0a3c815a/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/d12bbb7dd949d3fffed987aa0a3c815a/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9ff898b7d65a218fa30ac2bfe39588ca/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9ff898b7d65a218fa30ac2bfe39588ca/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+88            android:authorities="com.example.matchdayapp.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9ff898b7d65a218fa30ac2bfe39588ca/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+89            android:exported="false"
+89-->[com.google.firebase:firebase-common:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9ff898b7d65a218fa30ac2bfe39588ca/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+90            android:initOrder="100" />
+90-->[com.google.firebase:firebase-common:19.3.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9ff898b7d65a218fa30ac2bfe39588ca/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9c5db1b0e149cf67d34e0cffa1a4e790/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9c5db1b0e149cf67d34e0cffa1a4e790/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mohammedsabri/.gradle/caches/transforms-2/files-2.1/9c5db1b0e149cf67d34e0cffa1a4e790/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+95    </application>
+96
+97</manifest>
